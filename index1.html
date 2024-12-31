@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Core</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <section id="home" class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png" alt="Quantum Core Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="showMenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#solution">SOLUTION</a></li>
+                    <li><a href="#about-us">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="hideMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Quantum Core</h1>
+            <p>QuantumCore is a cutting-edge startup revolutionizing the future of computing by designing and manufacturing quantum computers. <br>Our mission is to empower industries with unparalleled computational power, enabling breakthroughs in healthcare, AI, finance, and beyond.</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="solution" class="hero">
+        <h1>Our Mission</h1>
+        <p>Our mission is to harness the power of quantum technology to solve the world’s most complex challenges and drive meaningful progress across industries.</p>
+        <div class="row">
+            <div class="hero-col">
+                <h3>Pioneering the Quantum Future</h3>
+                <p>At QuantumCore, we are revolutionizing industries through cutting-edge quantum technology. Our mission is to bridge the gap between theoretical quantum research and practical real-world applications.</p>
+            </div>
+            <div class="hero-col">
+                <h3>Transforming Industries with Quantum Solutions</h3>
+                <p>Unlock unparalleled potential with QuantumCore's tailored quantum technologies. From finance to healthcare, logistics to energy, our quantum algorithms and systems solve complex problems faster and more efficiently.</p>
+            </div>
+            <div class="hero-col">
+                <h3>Join the Quantum Revolution</h3>
+                <p>Collaborate, invest, or innovate with QuantumCore to shape the future. Whether you're an investor or a business exploring transformative technologies, QuantumCore offers a platform to make a lasting impact.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="about-us" class="solution">
+        <h1>Core Values</h1>
+        <p>At QuantumCore, our core values are the foundation of everything we do. They guide our actions, inspire our innovations, and shape our commitment to building a better future through quantum technology.</p>
+        <div class="row">
+            <div class="solution-col">
+                <img src="images/core1.jpg" alt="">
+                <div class="layer">
+                    <h3>Innovation at the Forefront of Technology</h3>
+                </div>
+            </div>
+            <div class="solution-col">
+                <img src="images/core2.jpg" alt="">
+                <div class="layer">
+                    <h3>Practical Quantum Solutions for Real-World Impact</h3>
+                </div>
+            </div>
+            <div class="solution-col">
+                <img src="images/core3.jpg" alt="">
+                <div class="layer">
+                    <h3>Building a Sustainable and Scalable Future</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="contact" class="facilities">
+        <h1>Key Features</h1>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/key1.webp">
+                <h3>Proprietary Quantum Chips with Unmatched Processing Speed</h3>
+                <p>QuantumCore’s proprietary quantum chips are designed to deliver unprecedented processing speed, enabling businesses and researchers to solve complex problems faster than traditional computing systems.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/key2.webp">
+                <h3>Turnkey Quantum Systems for Businesses and Research Institutions</h3>
+                <p>A high-tech, futuristic quantum computer system in a data center or laboratory setting, with visible scientists or engineers working on the system.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/key3.webp">
+                <h3>Custom Solutions for Industries like Finance, Healthcare, and AI</h3>
+                <p>A split-screen showing industry-specific applications like finance, healthcare, and AI, powered by quantum-enhanced algorithms.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to QuantumCore, where innovation meets the future of computing. We are a forward-thinking startup dedicated to unlocking the true potential of quantum technology and delivering practical solutions to real-world challenges.</p>
+        <div class="icons">
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-envelope-fill"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+        </div>
+        <p>Made with <i class="bi bi-heart"></i> by Ashish Magar</p>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
